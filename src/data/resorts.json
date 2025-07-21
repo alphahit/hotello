@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Zermatt",
+    "description": "Iconic Matterhorn views and challenging slopes.",
+    "imageKey": "zermatt"
+  },
+  {
+    "id": "2",
+    "title": "Val d'Isère",
+    "description": "Extensive terrain and vibrant après-ski scene.",
+    "imageKey": "valdisere"
+  },
+  {
+    "id": "3",
+    "title": "Chamonix",
+    "description": "High-altitude skiing with stunning panoramic views.",
+    "imageKey": "chamonix"
+  },
+  {
+    "id": "4",
+    "title": "Courchevel",
+    "description": "Family-friendly resort with charming village atmosphere.",
+    "imageKey": "courchevel"
+  },
+  {
+    "id": "5",
+    "title": "St. Moritz",
+    "description": "World-class skiing and luxurious accommodations.",
+    "imageKey": "stmoritz"
+  }
+] 

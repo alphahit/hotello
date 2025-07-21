@@ -1,0 +1,324 @@
+[
+  {
+    "id": "1",
+    "name": "The Grand Budapest Hotel",
+    "city": "Budapest",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.5,
+    "reviews": "4.5k",
+    "description": "Located in the heart of the city, the Grand Budapest Hotel offers luxurious accommodations with breathtaking views. Enjoy our rooftop pool and bar for an unforgettable experience. Free Wi-Fi is available throughout the property.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 king bed or 2 twin beds", "price": 150 },
+      { "name": "Deluxe Room", "desc": "1 king bed, city view", "price": 220 },
+      { "name": "Suite", "desc": "1 king bed, separate living area", "price": 350 }
+    ],
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Kitchen", "Washer"]
+  },
+  {
+    "id": "2",
+    "name": "The Overlook Hotel",
+    "city": "Colorado Springs",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.8,
+    "reviews": "3.2k",
+    "description": "The Overlook Hotel is famous for its scenic mountain views and historic charm. Guests enjoy modern amenities and a relaxing spa.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 queen bed", "price": 200 },
+      { "name": "Mountain View Room", "desc": "1 king bed, mountain view", "price": 260 },
+      { "name": "Presidential Suite", "desc": "2 king beds, private balcony", "price": 400 }
+    ],
+    "beds": 2,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Kitchen"]
+  },
+  {
+    "id": "3",
+    "name": "The Great Northern Hotel",
+    "city": "Banff",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.2,
+    "reviews": "2.1k",
+    "description": "A classic hotel with a modern twist, The Great Northern offers comfort and convenience in a prime location.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Single Room", "desc": "1 single bed", "price": 120 },
+      { "name": "Double Room", "desc": "2 double beds", "price": 180 },
+      { "name": "Family Suite", "desc": "2 bedrooms, living area", "price": 300 }
+    ],
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": ["Wifi"]
+  },
+  {
+    "id": "4",
+    "name": "The Stanley Hotel",
+    "city": "Estes Park",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.6,
+    "reviews": "2.8k",
+    "description": "The Stanley Hotel is known for its historic architecture and beautiful gardens. Perfect for a romantic getaway.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Classic Room", "desc": "1 queen bed", "price": 180 },
+      { "name": "Garden Suite", "desc": "1 king bed, garden view", "price": 250 },
+      { "name": "Luxury Suite", "desc": "1 king bed, jacuzzi", "price": 400 }
+    ],
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": ["Kitchen", "Washer"]
+  },
+  {
+    "id": "5",
+    "name": "Hotel California",
+    "city": "Los Angeles",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.3,
+    "reviews": "3.0k",
+    "description": "Hotel California offers a unique blend of comfort and style, with easy access to the city’s top attractions.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 queen bed", "price": 170 },
+      { "name": "Deluxe Room", "desc": "1 king bed, city view", "price": 220 },
+      { "name": "Penthouse Suite", "desc": "1 king bed, rooftop access", "price": 380 }
+    ],
+    "beds": 4,
+    "bathrooms": 3,
+    "amenities": ["Wifi", "Washer"]
+  },
+  {
+    "id": "6",
+    "name": "The Plaza Hotel",
+    "city": "New York",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.7,
+    "reviews": "5.1k",
+    "description": "The Plaza Hotel is a symbol of elegance and luxury, offering world-class service and amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Superior Room", "desc": "1 king bed", "price": 210 },
+      { "name": "Executive Suite", "desc": "1 king bed, lounge access", "price": 320 },
+      { "name": "Presidential Suite", "desc": "2 king beds, private terrace", "price": 500 }
+    ],
+    "beds": 5,
+    "bathrooms": 4,
+    "amenities": ["Wifi", "Kitchen"]
+  },
+  {
+    "id": "7",
+    "name": "The Ritz",
+    "city": "London",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.9,
+    "reviews": "6.2k",
+    "description": "The Ritz is renowned for its timeless luxury and impeccable service. Experience the best in hospitality.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Classic Room", "desc": "1 queen bed", "price": 250 },
+      { "name": "Deluxe Suite", "desc": "1 king bed, city view", "price": 350 },
+      { "name": "Royal Suite", "desc": "2 king beds, private butler", "price": 600 }
+    ],
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Kitchen", "Washer"]
+  },
+  {
+    "id": "8",
+    "name": "Hotel Transylvania",
+    "city": "Transylvania",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.1,
+    "reviews": "1.7k",
+    "description": "A fun and quirky hotel, Hotel Transylvania is perfect for families and those seeking adventure.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Monster Room", "desc": "2 twin beds", "price": 110 },
+      { "name": "Family Suite", "desc": "2 queen beds, living area", "price": 180 },
+      { "name": "Castle Suite", "desc": "1 king bed, castle view", "price": 300 }
+    ],
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": ["Kitchen"]
+  },
+  {
+    "id": "9",
+    "name": "The Shining Hotel",
+    "city": "Colorado",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.4,
+    "reviews": "2.4k",
+    "description": "The Shining Hotel is a unique destination with a mysterious charm and modern comforts.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 queen bed", "price": 160 },
+      { "name": "Deluxe Room", "desc": "1 king bed, mountain view", "price": 220 },
+      { "name": "Suite", "desc": "1 king bed, living area", "price": 350 }
+    ],
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": ["Wifi", "Washer"]
+  },
+  {
+    "id": "10",
+    "name": "The Continental",
+    "city": "New York",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.8,
+    "reviews": "5.7k",
+    "description": "The Continental is a modern hotel with world-class amenities and a central location.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 queen bed", "price": 230 },
+      { "name": "Executive Suite", "desc": "1 king bed, lounge access", "price": 350 },
+      { "name": "Presidential Suite", "desc": "2 king beds, private terrace", "price": 600 }
+    ],
+    "beds": 5,
+    "bathrooms": 5,
+    "amenities": ["Wifi", "Kitchen", "Washer"]
+  },
+  {
+    "id": "11",
+    "name": "Seaside Serenity Resort",
+    "city": "Miami",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.4,
+    "reviews": "2.9k",
+    "description": "Overlooking the vibrant shoreline, Seaside Serenity Resort combines luxury with laid‑back beach vibes. Take a dip in our infinity pool or stroll down to private beach access.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Ocean View", "desc": "1 queen bed, partial ocean view", "price": 180 },
+      { "name": "Deluxe Beachfront", "desc": "1 king bed, direct beach access", "price": 260 },
+      { "name": "Suite with Balcony", "desc": "1 king bed, private balcony", "price": 380 }
+    ],
+    "beds": 2,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Pool", "Beach Access"]
+  },
+  {
+    "id": "12",
+    "name": "Mountain Escape Lodge",
+    "city": "Lake Tahoe",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.7,
+    "reviews": "3.5k",
+    "description": "Nestled amid pine forests, Mountain Escape Lodge offers a cozy retreat. Enjoy hiking trails by day and unwind by the fireplace at night.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Cozy Cabin", "desc": "1 queen bed", "price": 140 },
+      { "name": "Family Cabin", "desc": "2 queen beds", "price": 240 },
+      { "name": "Lodge Suite", "desc": "1 king bed, living area", "price": 320 }
+    ],
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Kitchen", "Fireplace"]
+  },
+  {
+    "id": "13",
+    "name": "Urban Retreat Hotel",
+    "city": "Tokyo",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.3,
+    "reviews": "4.0k",
+    "description": "In the heart of the city, Urban Retreat Hotel blends modern design with traditional hospitality. Perfect for business or leisure travelers.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Compact Room", "desc": "1 single bed", "price": 130 },
+      { "name": "City View Room", "desc": "1 double bed, skyline view", "price": 210 },
+      { "name": "Premium Suite", "desc": "1 king bed, lounge access", "price": 340 }
+    ],
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": ["Wifi", "Washer"]
+  },
+  {
+    "id": "14",
+    "name": "Desert Oasis Inn",
+    "city": "Dubai",
+    "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "rating": 4.6,
+    "reviews": "1.8k",
+    "description": "Experience luxury in the sands at Desert Oasis Inn. Relax in our spa or take a sunset stroll through lush desert gardens.",
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0",
+      "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0"
+    ],
+    "roomTypes": [
+      { "name": "Standard Room", "desc": "1 queen bed", "price": 200 },
+      { "name": "Executive Floor", "desc": "1 king bed, lounge access", "price": 320 },
+      { "name": "Royal Suite", "desc": "2 king beds, private terrace", "price": 550 }
+    ],
+    "beds": 2,
+    "bathrooms": 2,
+    "amenities": ["Wifi", "Spa", "Pool"]
+  }
+]
