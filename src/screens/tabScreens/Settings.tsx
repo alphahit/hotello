@@ -8,39 +8,28 @@ import { useNavigation } from '@react-navigation/native';
 export default function Settings() {
   // Dummy user data
 
-  // {
-  //   name: 'John Doe',
-  //     id: 'Doorstep Partner ID',
-  //     phone: '+1 234 567 890',
-  //     email: 'john.doe@example.com',
 
-  // }
 
-  const user = {
-    name: 'Prateek Traveler',
-    id: 'Booking User ID: 102938',
-    phone: '+1 555 123 4567',
-    email: 'Prateek.traveler@gmail.com',
+  const user =   {
+    name: 'John Doe',
+      id: 'Doorstep Partner ID',
+      phone: '+1 234 567 890',
+      email: 'john.doe@example.com',
+
   };
 
-  // [
-
-  // { label: 'Activity Manager', onPress: () => {} },
-  // { label: 'Chat with Kucryn', onPress: () => {} },
-  // { label: 'Payments', onPress: () => {} },
-  // { label: 'Document Upload', onPress: () => {} },
-  // { label: 'Contact Us', sub: 'Email, Phone', onPress: () => {} },
-  // ]
+ 
 
   // Option list data
   const navigation = useNavigation();
-  const options = [
-    { label: 'My Bookings', onPress: () => navigation.navigate('Bookings') },
-    { label: 'Saved Hotels', onPress: () => {} },
-    { label: 'Payment Methods', onPress: () => {} },
-    { label: 'Support & Help', onPress: () => {} },
-    { label: 'Contact Us', sub: 'Email, Chat, Phone', onPress: () => {} },
-  ];
+  const options =  [
+
+    { label: 'Activity Manager', onPress: () => {} },
+    { label: 'Chat with Kucryn', onPress: () => {} },
+    { label: 'Payments', onPress: () => {} },
+    { label: 'Document Upload', onPress: () => {} },
+    { label: 'Contact Us', sub: 'Email, Phone', onPress: () => {} },
+    ];
 
   return (
     <View style={styles.container}>

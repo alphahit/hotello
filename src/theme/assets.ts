@@ -14,6 +14,10 @@ import Hotel from './../assets/svg/hotel.svg';
 import Sleep from './../assets/svg/sleep.svg';
 import Door from './../assets/svg/door.svg';
 
+
+
+import Logo from './../assets/svg/logo.svg';
+
 export const Icons = {
   ArrowLeft,
   Add,
@@ -30,4 +34,5 @@ export const Icons = {
   ArrowForwardGrey,
   CompletedTick,
   NotVisible,
+  Logo
 };

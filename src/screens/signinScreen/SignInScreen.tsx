@@ -105,10 +105,11 @@ export const SignInScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       {/* <Text style={styles.welcomeText}>Welcome Earthling !!</Text> */}
-      <Image
+      {/* <Image
         source={require('../../assets/images/hottelo.png')}
         style={styles.earthImage}
-      />
+      /> */}
+          <Icons.Logo width={320} height={180} />
       {/* <GoogleSigninButton
         style={styles.googleSignInButton}
         size={GoogleSigninButton.Size.Wide}
@@ -123,7 +124,7 @@ export const SignInScreen = () => {
           wrapperStyle={styles.loginButtonWrapper}
           titleStyle={styles.loginButtonTitle}
         />
-      <View style={styles.carouselContainer}>
+      {/* <View style={styles.carouselContainer}>
         <Carousel
           loop={true}
           autoplay={true}
@@ -140,7 +141,7 @@ export const SignInScreen = () => {
             </View>
           ))}
         </Carousel>
-      </View>
+      </View> */}
     </SafeAreaView>
   );
 };
@@ -149,7 +150,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
+    justifyContent: "center",
     backgroundColor: COLORS.primaryLight,
     paddingTop: RH(40),
   },
